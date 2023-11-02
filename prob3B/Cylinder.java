@@ -1,4 +1,4 @@
-package prob3;
+package prob3B;
 
 public class Cylinder {
     private double height;
@@ -11,6 +11,10 @@ public class Cylinder {
 
     public double getHeight() {
         return height;
+    }
+
+    public double getRadius() {
+        return radius;
     }
 
     public double computeVolume(){
